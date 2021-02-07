@@ -6,8 +6,8 @@ class ChildTest < ActiveSupport::TestCase
   should have_many(:tasks).through(:chores)
   
   # TODO: Validation macros
-  assert_equal ["Alex", "Mark", "Rachel"], Child.alphabetical.map{|c| c.first_name}
-  assert_equal ["Alex", "Mark"], Child.active.alphabetical.map{|c| c.first_name}
+  should validate_presence_of(:first_name)
+  should validate_presence_of(:last_name)
 
   # TODO: Context testing
   context "Creating a child context" do
