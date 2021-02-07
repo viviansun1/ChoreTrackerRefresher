@@ -34,18 +34,25 @@
   },
   "Unit Tests": {
     "coverage": {
-      "/home/vivian/67373/lab5-choretracker-starter/app/models/child.rb": [
+      "/home/vivian/67373/lab5-choretracker-starter/app/models/chore.rb": [
         1,
         1,
         1,
         null,
+        null,
         1,
+        null,
         null,
         3,
         2,
+        2,
+        2,
+        2,
+        2,
+        null,
         null,
         1,
-        3,
+        2,
         null,
         null
       ],
@@ -54,8 +61,29 @@
         1,
         null
       ],
-      "/home/vivian/67373/lab5-choretracker-starter/app/models/chore.rb": [
+      "/home/vivian/67373/lab5-choretracker-starter/app/models/child.rb": [
         1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/vivian/67373/lab5-choretracker-starter/app/models/task.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
         1,
         1,
         null
@@ -310,20 +338,8 @@
         0,
         0,
         0
-      ],
-      "/home/vivian/67373/lab5-choretracker-starter/app/models/task.rb": [
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0
       ]
     },
-    "timestamp": 1612717418
+    "timestamp": 1612719595
   }
 }
